@@ -1,0 +1,16 @@
+table {
+
+  width: 100% !important;
+
+  .mat-column-id {
+    width: 10% !important;
+  }
+
+  .mat-column-sumTo,
+  .mat-column-sumFrom,
+  .mat-column-currencyFrom,
+  .mat-column-currencyTo,
+  .mat-column-date {
+    width: 18% !important;
+  }
+}
