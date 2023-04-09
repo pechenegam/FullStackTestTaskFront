@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {Conversion} from "../../../models/conversion";
 import {ActivatedRoute} from "@angular/router";
+import {Team} from "../../../models/team";
 
 @Component({
   selector: 'app-history',
@@ -9,7 +10,7 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class HistoryComponent {
 
-  readonly conversions = this.activatedRoute.snapshot.data['conversions'] as Conversion[];
+  readonly conversions = this.activatedRoute.snapshot.data['team'] as Team[];
 
   constructor(private activatedRoute: ActivatedRoute) {
   }

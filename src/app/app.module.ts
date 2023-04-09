@@ -4,7 +4,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {NavbarComponent} from './layouts/navbar/navbar.component';
-import {ConversionComponent} from './layouts/content/conversion/conversion.component';
 import {HistoryComponent} from './layouts/content/history/history.component';
 import {LoginComponent} from './layouts/content/login/login.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
@@ -25,16 +24,17 @@ import {MatSnackBarModule} from "@angular/material/snack-bar";
 import {SecurityInterceptor} from "./interceptors/security.interceptor";
 import { AllHistoryComponent } from './layouts/content/all-history/all-history.component';
 import { ConversionsTableComponent } from './layouts/content/shared/conversions-table/conversions-table.component';
+import { HelloPageComponent } from './newLayouts/content/hello-page/hello-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ConversionComponent,
     HistoryComponent,
     LoginComponent,
     AllHistoryComponent,
     ConversionsTableComponent,
+    HelloPageComponent,
   ],
   imports: [
     BrowserModule,

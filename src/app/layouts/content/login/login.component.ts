@@ -33,6 +33,6 @@ export class LoginComponent {
   }
 
   private navigateToMain() {
-    return this.router.navigate([Urls.CONVERSION]);
+    return this.router.navigate([Urls.HELLO_PAGE]);
   }
 }
